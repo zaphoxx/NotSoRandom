@@ -30,10 +30,10 @@ nsr.setSeed(seed)
 
 # calculate the next 5 long values:
 for i in range(0,5):
-    print("[+] round %d : rnd value in hex : %s"%(i+1,nsr.nextLong()))
+    print("[+] round %d : rnd value: %s"%(i+1,nsr.nextLong()))
     
 # set seed back to found value
 nsr.setSeed(seed)
 # calculate the previous long value:
 print("[+] calculate long rnd previous to current value : %d"% current)
-print("[+] previous rnd long in hex : %s"% nsr.previousLong())
+print("[+] previous rnd long: %s"% nsr.previousLong())
