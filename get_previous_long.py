@@ -5,8 +5,8 @@ import notSoRandom
 # tokenId=0xec50a42755fea645 #64 bit value                                    #
 ###############################################################################
 print("-"*80)
-print("Example calculates based of provided long rnd number the seed,\n\
-the next 5 long rnd numbers and the previous long rnd number.")
+print("Example calculates based of provided long rnd number the seed, the\n\
+next 5 long rnd numbers and the previous long rnd number.")
 print("-"*80)
 # known random number (64bit long value)
 current = 0xec50a42755fea645
