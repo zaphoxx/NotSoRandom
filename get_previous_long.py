@@ -10,7 +10,7 @@ the next 5 long rnd numbers and the previous long rnd number.")
 print("-"*80)
 # known random number (64bit long value)
 current = 0xec50a42755fea645
-print("[+] current known long value : 0x{}".format(current))
+print("[+] current known long value : {}".format(current))
 nsr=notSoRandom.NotSoRandom()
 print("[+] create a new 'NotSoRandom' object.")
 
