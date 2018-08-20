@@ -26,7 +26,7 @@ class NotSoRandom():
         # set a basic initial seed if nothing is provided on class definition - warn user !
         if self.seed==None:
             self.setJavaSeed(0)
-            print("[warning] seed not defined by user! used setSeed() to define user specific seed values. (default = 0)")
+            # print("[warning] seed not defined by user! used setSeed() to define user specific seed values. (default = 0)")
         
     # setSeed as defined in oracle java java.util.random
     def setJavaSeed(self,seed):
@@ -88,9 +88,7 @@ class NotSoRandom():
     def findSeed(self,r1,r2,bits=None):
         seed=0
         if bits==None:
-            bits=48
-            #seed=self.previous(r1)
-    
+            bits=48    
         shift=2**(48-bits) # 2^16
         #seed=r1*shift
         for i in range(0,shift):
